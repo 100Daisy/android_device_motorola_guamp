@@ -1,0 +1,11 @@
+kind: pipeline
+name: TWRP for Guamp
+
+clone:
+  depth: 1
+
+steps:
+- name: building
+  image: fr3akyphantom/droid-builder:latest
+  commands:
+  - bash twrp-build.sh
