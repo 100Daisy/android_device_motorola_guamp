@@ -1,6 +1,7 @@
 #!bin/bash
 
 # Go to the working directory
+rm -rf ~/TWRP
 mkdir ~/TWRP && cd ~/TWRP
 # Configure git
 git config --global user.email "100Daisy@protonmail.com"
